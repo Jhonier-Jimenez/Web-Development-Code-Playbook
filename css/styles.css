@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+header {
+
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-areas: "left center right";
+    font-family: 'El Messiri', sans-serif;
+    height: 700px;
+    background-image: url("../Images and Screenshots/coding2.jpg");
+    background-size: cover;
+    background-position: left 10% bottom 50%;
+    border-radius: 10px;
+    border-color: rgb(134, 134, 134);
+    border-style: solid;
+    margin-top: 30px;
+}
+
+.title{
+    grid-area: right;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+hr{
+    margin-left: 20px;
+}
+
+.logos{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    grid-area: right;
+    margin-top: 210px;
+    margin-right: 8px;
+}
+
+.icon{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.icon:active{
+    visibility: hidden;
+}
+
+a {
+    font-family: 'El Messiri', sans-serif;
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+body{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: black;
+}
+
+body > h1,li {
+    color: white;
+}
+
+#rocket{
+    border-radius: 50%;
+}

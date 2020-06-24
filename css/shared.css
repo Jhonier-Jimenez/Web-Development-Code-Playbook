@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#section{
+    font-family: 'El Messiri', sans-serif;
+}
+
+#home_button{
+    font-family: 'El Messiri', sans-serif;
+    color: white;
+}
+
+article h1{
+    font-family: 'El Messiri', sans-serif;
+}
+
+.note_box{
+    min-width: 640px;
+    min-height: 400px;
+}
+
+.class_columns{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+body{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 80px;
+    background-color: black;
+}
+
+body > h1,h2,article {
+    color: white;
+}
+
+body h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+body article{
+    font-family: 'Gelasio', serif;
+    font-size: larger;
+
+}
+
+.class_img{
+    border-radius: 10px;
+}
+
+h2{
+    color: #4d80e4;
+}
